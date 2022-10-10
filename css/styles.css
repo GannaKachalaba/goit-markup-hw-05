@@ -750,6 +750,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0;
   width: 30px;
   height: 30px;
   background: var(--primary-bg-color);
@@ -759,6 +760,7 @@ body {
   top: 8px;
   right: 10px;
   cursor: pointer;
+  transition: transform var(--transition-time);
 }
 
 .icon-close {
@@ -767,7 +769,7 @@ body {
   justify-content: center;
   width: 18px;
   height: 18px;
-}
+ }
 
 .is-hidden {
   opacity: 0;
